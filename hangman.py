@@ -49,7 +49,7 @@ def main():
             # if no lives remain end game
             if lives == 0:
                 flag = 0
-                print(f"****************************IT WAS {chosen_word}! YOU LOSE****************************")
+                print(f"****************************IT WAS {chosen_word.upper()}! YOU LOSE****************************")
                 break
         # prints the word after guess was made
         else:
